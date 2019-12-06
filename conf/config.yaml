@@ -1,0 +1,12 @@
+input:
+    file_path: "data/"
+    file_name : "records.csv"
+output:
+    file_path: "data/"
+level:
+    over_7:
+        output_file: "over_7.csv"
+        score: 7
+    over_5:
+        output_file: "over_5.csv"
+        score: 5
